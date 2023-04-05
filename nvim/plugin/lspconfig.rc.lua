@@ -43,3 +43,9 @@ nvim_lsp.lua_ls.setup {
     }
   }
 }
+
+nvim_lsp.pyright.setup {
+  on_attach = on_attach,
+  filetypes = { "python" },
+  cmd = { "pyright-langserver", "--stdio" }
+}

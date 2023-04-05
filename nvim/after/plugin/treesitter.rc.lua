@@ -12,11 +12,15 @@ ts.setup {
   },
   ensure_installed = {
     'tsx',
+    'javascript',
+    'typescript',
     'lua',
+    'python',
     'json',
     'css',
     'markdown',
-    'markdown_inline'
+    'markdown_inline',
+    'vim'
   },
   autotag = {
     enable = true,

@@ -14,11 +14,11 @@ keymap.set('n', 'dw', 'vb"_d')
 keymap.set('n', '<C-a>', 'gg<S-v>G')
 
 -- New Tab
-keymap.set('n', 'te', ':tabedit<Return>', {silent = true})
+keymap.set('n', 'te', ':tabedit<Return>', { silent = true })
 
 -- Split Window
-keymap.set('n', 'ss', ':split<Return><C-w>w', {silent = true})
-keymap.set('n', 'sv', ':vsplit<Return><C-w>w', {silent = true})
+keymap.set('n', 'ss', ':split<Return><C-w>w', { silent = true })
+keymap.set('n', 'sv', ':vsplit<Return><C-w>w', { silent = true })
 
 -- Move Window
 keymap.set('n', '<Space>', '<C-w>w')
