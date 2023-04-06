@@ -17,7 +17,7 @@ packer.startup(function(use)
   use 'hrsh7th/nvim-cmp'                       -- Completion
   use {                                        -- Syntax highlighting
     'nvim-treesitter/nvim-treesitter',
-    run = ':TSUpdate'
+    run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
   }
 
   use 'neovim/nvim-lspconfig'                      -- LSP
@@ -43,5 +43,12 @@ packer.startup(function(use)
 end)
 
 -- TO DO
---  [] remove prettier, null-ls & git
---  [] integrate which-key, dashboard & lazygit
+--  [X] remove MunifTanjim/prettier.nvim and use default configs in null-ls
+--  [X] add move.nvim for moving blocks and lines
+--  [] add numToStr/Comment.nvim & JoosepAlviste/nvim-ts-context-commentstring for comments
+--  [] add goolord/alpha-nvim as startup dashboard
+--  [] integrate akinsho/toggleterm of floating terminals
+--  [] add Lazygit config with toggleterm
+--  [] use folke/which-key as a keymapping cheetsheet
+--  [] use ThePrimeagen/harpoon for marking files as quick revisit
+--  [] integrate ThePrimeagen/refactoring for refactoring
