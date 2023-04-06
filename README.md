@@ -15,3 +15,4 @@ This branch contains many of the configuration dotfiles for various tools i use 
 - [Yabai](https://github.com/koekeishiya/yabai) - Tiling window manager
 - [Skhd](https://github.com/koekeishiya/skhd) - Hotkey daemon
 - [Neovim](https://neovim.io/) - Text Editor/IDE
+- [Lazygit](https://github.com/jesseduffield/lazygit) - Lazygit

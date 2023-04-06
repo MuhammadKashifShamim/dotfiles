@@ -46,6 +46,7 @@ packer.startup(function(use)
 
   use 'lewis6991/gitsigns.nvim'                    -- Git Decorations
   use 'dinhhuy258/git.nvim'                        -- For git blame and browser
+  use 'akinsho/toggleterm.nvim'                    -- Terminal within editor
 end)
 
 -- TO DO
@@ -53,9 +54,9 @@ end)
 --  [X] update lspconfig to setup native tailwindcss server
 --  [X] add move.nvim for moving blocks and lines
 --  [X] add numToStr/Comment.nvim & JoosepAlviste/nvim-ts-context-commentstring for comments
---  [] add goolord/alpha-nvim as startup dashboard
---  [] integrate akinsho/toggleterm of floating terminals
---  [] add Lazygit config with toggleterm
---  [] use folke/which-key as a keymapping cheetsheet
+--  [X] integrate akinsho/toggleterm of floating terminals
+--  [X] add Lazygit config with toggleterm
 --  [] use ThePrimeagen/harpoon for marking files as quick revisit
+--  [] add goolord/alpha-nvim as startup dashboard
+--  [] use folke/which-key as a keymapping cheetsheet
 --  [] integrate ThePrimeagen/refactoring for refactoring
